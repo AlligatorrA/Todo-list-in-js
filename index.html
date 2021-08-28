@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ToDo list</title>
+</head>
+<body>
+    <div class="main">
+        <h1>TODOs List</h1>
+        <div class="Title">
+            <label for="title">Title</label>
+            <input class="title" type="text">
+        </div>
+        <div class="Description">
+            <label for="description">Description</label>
+            <textarea name="description" class="discp" cols="40" rows="10"></textarea>
+        </div>
+        <div class="Buttons">
+            <button class="add" >Add list</button>
+            <button class="clear" >Clear List</button>
+        </div>
+        <div class="items"> 
+            <h1>Your items</h1>
+        <div class="Table">
+            <table>
+                <tr>
+                    <th>S.no</th>
+                    <th>Item Title</th>
+                    <th>Item Description</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>coffee</td>
+                    <td>lets have a coofe in cafe</td>
+                    <td><button>edit</button> / <button>Delete</button></td>
+                </tr>
+            </table>
+        </div>
+        </div>
+        <div class="output"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
